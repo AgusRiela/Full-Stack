@@ -1,0 +1,22 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "Ejercicios de la carrera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgusRiela/Full-Stack.git"
+  },
+  "author": "AgustinaRiela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgusRiela/Full-Stack/issues"
+  },
+  "homepage": "https://github.com/AgusRiela/Full-Stack#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
