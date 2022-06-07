@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/tattoo-studio-letreros-neon-estilo-texto_118419-2827.jpg?w=2000);
+    background-size: cover;
+    background: position 30%;
+    background-repeat: no-repeat;
+}
+
+.bloques{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: stretch;
+
+}
+.tatuaje{
+    width: 60vh;
+    font-size: 40px;
+    color: blanchedalmond;
+}
+
+.titulo{
+    color: #af00bf;
+    font-size: 70px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.foto{
+    height: 30px;
+}
+.info{
+    color: #b240b698;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: center;
+}
+.fotos2{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: stretch;
+    height: 100vw;
+    width: 100vw;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aqua;
+    
+}
+img{
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 350px;
+    padding-right: 50px;
+}
