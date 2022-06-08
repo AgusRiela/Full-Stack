@@ -1,0 +1,124 @@
+.encabezado{
+    background-color: #d4c8c8;
+    color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 70vw;
+    margin: 20px 50px 1px 180px;
+    align-items: stretch;
+    border-radius: 5px;
+}
+.menu1{
+    background-color: #17b42c;  
+    color: white;
+    border: black;
+    border-style:solid;
+    border-width:thin;
+    margin-left: 392px;
+    height: 27  px;
+    width: 48%;
+}
+.logo{
+    background-color:#1982e1;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width:thin ;
+    height: 25px;
+    width: 20%;
+    margin:4px 70px 10px 9px;
+}
+.menu2{
+    background-color: #be1717;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    margin: 4px 0px 20px 70px;
+    height: 25px;
+    width: 63.5%;;
+}
+.medio{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 75vh;
+    width: 70vw;
+    margin: 0px 50px 10px 180px;
+    align-items: stretch;
+}
+.izquierda{
+    background-color: #7b7878;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: 220px;
+    width: 30%;
+    margin:0px 15px 8px 5px ;
+}
+.centro{
+    background-color: #1882e2;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: 220px;
+    width: 30%;
+    margin:0px 15px 8px 15px;
+
+}
+.derecha{
+    background-color: #ed8314;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: 220px;
+    width: 30%;
+    margin: 0px 15px 8px 15px;
+}
+.izquierda2{
+    background-color: #0d6905;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: 220px;
+    width: 65%;
+    margin:0px 15px 0px 5px ;
+}
+.derecha2{
+    background-color: #ca7f2e;
+    color: white;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    height: 220px;
+    width: 30%;
+}
+.pie{
+    background-color: #d4c8c8;
+    color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 10vh;
+    width: 70vw;
+    margin: 0px 50px 1px 180px;
+    border-radius: 5px;
+}
+.elemento{
+    background-color: #1882e2;
+    color: white;
+    height: 25px;
+    width: 20%;
+    margin:20px 10px 10px 700px;
+}
