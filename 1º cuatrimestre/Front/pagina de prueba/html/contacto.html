@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">    
+        <title>web de prueba</title>
+        <link rel="stylesheet" href="../css/stilycontacto.css">
+       
+    </head>
+    <body>
+        <div class="titulo">
+            <img class="tatto" src="../imagenes/estudio-de-tatuajes (5).png">
+            Ivo Mastronardi
+            <nav>
+                <a href="../html/index.html">Inicio <img class="icono" src="../imagenes/home.png"> </a>
+                <a href="../html/blog.html">Blog <img class="icono" src="../imagenes/edit.png"> </a>
+            </nav>
+        </div>
+        <div class="contenedormedio">
+            <div class="formulario">
+                <h1> Por turnos o consultas completa el siguiente formulario: </h1>
+                <form class="contenedor">
+                    Nombre: <input type="text" name="nombre" value="" placeholder="Ingrese su nombre" required/>
+                    Apellido: <input type="text" name="apellido" value=""  placeholder="Ingrese su apellido" required/>
+                    Email: <input type="text" name="email" value="" placeholder="Ingrese su email @"required/>
+                    <div class="opciones">
+                        <input type="radio" id=menor name="edad" value="menor"/> Menor de 18años
+                        <input type="radio" id="mayor" name="edad2" value="mayor"/> Mayor de 18años
+                        <input type="button" id="btnvalidar" name="validar" value="validar"/>
+                        <div class="mensaje">
+                            <p id="mensajito"> </p>
+                        </div>
+                    </div>
+                    <label for="consulta">Seleccion su accion:</label>
+                    <select id="consulta" class="margen-inferior" name="consulta" size="1">
+                        <option value="turno">Turno</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <input type="text" name="especificar" class="margen-inferior" placeholder="Especificar su opcion Otro"/>
+                    Mensaje: <input type="text" name="mensaje" placeholder="Deje su mensaje"/>
+                    <button>Enviar</button>
+                  </form>
+            </div>
+            <div class="tabla">
+                <h1>Permisos</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Edad</th>
+                        <th>Permiso</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Menor de 18años </td>
+                        <td>Con planilla autorizada</td>
+                    </tr>
+                    <tr>
+                        <td>Mayor de 18años</td>
+                        <td>Sin planilla</td>
+                    </tr>
+            </table>
+            </div>
+            <div class="redes">
+                <h1>Me podes encontrar en las siguientes redes sociales: </h1>
+                <nav>
+                    <a class="icon" href="https://www.facebook.com/ivo.mastronardi"target="_blank"><img class="iconoredes" src="../imagenes/facebook.png"> </a>
+                    <a  class="icon"href="https://www.instagram.com/ivo.mastro/"target="_blank"><img class="iconoredes" src="../imagenes/instagram (1).png"> </a>
+                    <a class="icon" href="https://twitter.com/ivomastronardi" target="_blank"><img class="iconoredes" src="../imagenes/gorjeo.png"> </a>
+                </nav>
+            </div>
+        </div>
+        <div class="ultimocontenedor">
+            <img class="logo" src="../imagenes/hembra.png">
+                <p>¡¡ACA HACEMOS 
+                    RECUERDOS PERMANENTES!!</p>
+            <img class="logo" src="../imagenes/hembra.png">
+        <script src="../validacion.js"></script>
+    </body>
+</html>

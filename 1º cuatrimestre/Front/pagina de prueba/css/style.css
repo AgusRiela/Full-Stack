@@ -1,0 +1,84 @@
+.titulo{
+    background-color:rgb(106, 84, 149);
+    color:rgb(231, 237, 155);
+    font-size: 57px;
+    text-align:center;
+    font-family:sans-serif;
+    height: 20vh;
+    width: 95vw;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center ;
+    border-color:rgb(84, 50, 151);
+    border-width: 10px;
+    border-style: outset;
+}
+.contenedormedio{
+    background-color: rgb(139, 219, 129);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    height: 50vh;
+    width: 95vw;
+    border-color:rgb(108, 209, 94);
+    border-width: 10px;
+    border-style: outset;
+}
+.barra{
+    width: 60vh;
+    font-size:30px; 
+}
+.tatto{
+    height: 18vh;
+    width: 13vw;
+}
+.icono{
+    height: 3vh;
+    width: 3vw;
+}
+.img{
+    height: 30vh;
+    width: 15vw ;
+    padding-top: 10px;
+}
+.utlimocontenedor{
+    background-color: rgb(106, 84, 149);
+    width: 95vw;
+    height:20vh;
+    color:rgb(231, 237, 155) ;
+    border-color:rgb(84, 50, 151);
+    border-width: 10px;
+    border-style: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align:center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    height: 6vh;
+    font-size: 35px;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(139, 219, 129);
+    color:rgb(84, 50, 151);
+    border-style: outset;
+    border-width: 6px;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: rgb(120, 218, 107);
+}
+nav a:active{
+    background-color: rgb(84, 50, 151);
+    color:rgb(231, 237, 155); 
+}

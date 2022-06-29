@@ -1,0 +1,146 @@
+.titulo{
+    background-color:rgb(106, 84, 149);
+    color:rgb(231, 237, 155);
+    font-size: 57px;
+    text-align:center;
+    font-family:sans-serif;
+    height: 20vh;
+    width: 95vw;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center ;
+    border-color:rgb(84, 50, 151);
+    border-width: 10px;
+    border-style: outset;
+}
+.tatto{
+    height: 18vh;
+    width: 13vw;
+}
+.icono{
+    height: 4vh;
+    width: 3vw;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    height: 6vh;
+    font-size: 35px;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(139, 219, 129);
+    color:rgb(84, 50, 151);
+    border-style: outset;
+    border-width: 6px;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: rgb(120, 218, 107);
+}
+nav a:active{
+    background-color: rgb(84, 50, 151);
+    color:rgb(231, 237, 155); 
+}
+.contenedormedio{
+    background-color: rgb(139, 219, 129);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    height: 77vh;
+    width: 95vw;
+    border-color:rgb(108, 209, 94);
+    border-width: 10px;
+    border-style: outset;
+    color:black;
+    font-size: 17px;
+}
+th {
+    background-color: rgb(84, 50, 151);
+    color:rgb(231, 237, 155);
+}
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tabla{
+    width: 25%;
+    padding:  10px 10px 0px 10px ;
+}
+.formulario{
+    height: 90vh;
+    width:40%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+button{
+    background-color:  rgb(84, 50, 151);
+    border-color:rgb(108, 209, 94);
+    border-width: 5px;
+    border-style:outset;
+    width: 30vw;
+}
+.iconoredes{
+    height: 5vh;
+    width: 3vw;
+}
+h1{
+font-size: 30px;
+}
+.contenedor input{
+display: block;
+}
+.opciones{
+display: flex;
+margin:10px;
+font-size: 17px;
+}
+.mensaje{
+    height:10px;
+    width: 250px;
+    font-size: 17px;
+    padding-left: 20px;
+    margin:0px;
+    color:rgb(48, 45, 45)
+}
+.margen-inferior{
+margin-bottom: 3px;
+}
+.redes{
+width: 25%;
+}
+nav a.icon{
+    text-decoration: none;
+    display: block;
+    height: 6vh;
+    width: 3vw;
+    font-size: 25px;
+    border: 2px;
+    margin: 4px;
+    color: rgb(106, 84, 149);
+}
+.ultimocontenedor{
+    background-color: rgb(106, 84, 149);
+    width: 95vw;
+    height:20vh;
+    color:rgb(231, 237, 155) ;
+    border-color:rgb(84, 50, 151);
+    border-width: 10px;
+    border-style: outset;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center ;
+    font-size: 30px;
+}
+.logo{
+    height:20vh;
+    width: 25vw;
+    padding: 20px;
+}
